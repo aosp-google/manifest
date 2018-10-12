@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- CodeAurora additions -->
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pixel" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pixel" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pixel" />
+  <project path="external/brctl" name="external_brctl" remote="pixel" />
+  <project path="external/connectivity" name="external_connectivity" remote="pixel" />
+  <project path="external/ebtables" name="external_ebtables" remote="pixel" />
+  <project path="external/json-c" name="external_json-c" remote="pixel" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="pixel" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" revision="pie-caf-8998" remote="pixel" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" revision="pie-caf" remote="pixel" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="pixel" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="pie-caf-8998" remote="pixel" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pixel" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" revision="pie-caf-8998" remote="pixel" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
+  <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="pixel" />
+  <project path="hardware/qcom/vr" name="hardware_qcom_vr" remote="pixel" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" revision="pie-caf" remote="pixel" />
+  <project path="hardware/ril" name="hardware_ril" revision="pie" remote="pixel" />
+  <project path="hardware/ril-caf" name="hardware_ril" revision="pie-caf" remote="pixel" />
+  <project path="system/qcom" name="system_qcom" remote="pixel" />
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixel">
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixel" />
+  <project path="vendor/nxp/opensource/frameworks" name="vendor_nxp_opensource_frameworks" remote="pixel" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixel" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixel">
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_opensource_rcs-service" remote="pixel" />
+
+  <!-- External repos -->
+  <project path="external/selinux" name="external_selinux" remote="pixel" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixel" />
+  <project path="external/perfetto" name="external_perfetto" remote="pixel" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="pixel" />
+  <project path="bionic" name="bionic" remote="pixel" />
+  <project path="build/make" name="build" remote="aosp-google">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="aosp-google">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/kati" name="build_kati" remote="pixel" />
+  <project path="bootable/recovery" name="bootable_recovery" revision="pie" remote="pixel" />
+  <project path="development" name="development" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="aosp-google" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="pixel" />
+
+</manifest>
