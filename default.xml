@@ -10,7 +10,7 @@
           revision="pie" />
 
   <remote name="pixel"
-          fetch="https://github.com/PixelExperience-P"
+          fetch="https://github.com/PixelExperience"
           revision="pie" />
 
   <default revision="refs/tags/android-9.0.0_r10"
