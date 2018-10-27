@@ -25,7 +25,11 @@
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aosp-google" />
+
   <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="aosp-google" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
 
   <!-- General repos -->
