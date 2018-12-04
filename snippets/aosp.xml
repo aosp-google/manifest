@@ -25,7 +25,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="aosp-google" />
 
   <!-- General repos -->
-  <project path="bionic" name="bionic" remote="pixel" />
+  <project path="bionic" name="bionic" remote="aosp-google" />
   <project path="build/make" name="build" remote="aosp-google">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
