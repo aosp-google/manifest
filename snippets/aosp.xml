@@ -22,7 +22,10 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aosp-google" />
 
   <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="aosp-google" />
   <project path="frameworks/base" name="frameworks_base" remote="aosp-google" />
+  <project path="frameworks/native" name="frameworks_native" remote="aosp-google" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aosp-google" />
 
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="aosp-google" />
