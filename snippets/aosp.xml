@@ -22,6 +22,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="aosp-google" />
   <project path="frameworks/native" name="frameworks_native" remote="aosp-google" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aosp-google" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aosp-google" />
 
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="aosp-google" />
