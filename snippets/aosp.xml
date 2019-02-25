@@ -8,7 +8,6 @@
   <project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="pixel" />
 
   <!-- External repos -->
-  <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- Packages repos -->
