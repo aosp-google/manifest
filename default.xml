@@ -9,10 +9,6 @@
           fetch="https://github.com/aosp-google"
           revision="pie" />
 
-  <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="pie" />
-
   <default revision="refs/tags/android-9.0.0_r33"
            remote="aosp"
            sync-j="4" />
