@@ -51,6 +51,7 @@
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Packages repos -->
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- Framework repos -->

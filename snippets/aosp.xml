@@ -9,6 +9,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="aosp-google" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aosp-google" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aosp-google" />
 
   <!-- Framework repos -->
