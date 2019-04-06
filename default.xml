@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
+           fetch="https://aosp.tuna.tsinghua.edu.cn/"
            review="https://android-review.googlesource.com/" />
 
   <remote name="aosp-google"
