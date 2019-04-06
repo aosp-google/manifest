@@ -8,17 +8,6 @@
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="aosp-google" />
 
-  <!-- Packages repos -->
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aosp-google" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aosp-google" />
-
-  <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="aosp-google" />
-  <project path="frameworks/base" name="frameworks_base" remote="aosp-google" />
-  <project path="frameworks/native" name="frameworks_native" remote="aosp-google" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aosp-google" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aosp-google" />
-
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="aosp-google" />
   <project path="build/make" name="build" remote="aosp-google">
@@ -44,11 +33,5 @@
   <project path="hardware/custom/keydisabler" name="hardware_custom_keydisabler" remote="aosp-google" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="aosp-google" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aosp-google" />
-
-  <!-- System Repos -->
-  <project path="system/core" name="system_core" remote="aosp-google" />
-  <project path="system/netd" name="system_netd" remote="aosp-google" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="aosp-google" />
-  <project path="system/vold" name="system_vold" remote="aosp-google" />
 
 </manifest>
