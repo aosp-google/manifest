@@ -6,6 +6,7 @@
   <project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="aosp-google" />
 
   <!-- External repos -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aosp-google" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aosp-google" />
 
   <!-- Packages repos -->
